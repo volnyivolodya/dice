@@ -1,0 +1,30 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__button {
+    background-color: #4CAF50; /* Зеленый фон */
+    color: white; /* Белый текст */
+    border: none; /* Без обводки */
+    border-radius: 8px; /* Скругленные углы */
+    padding: 15px; /* Отступы по вертикали и горизонтали */
+    font-size: 15px; /* Размер шрифта */
+    font-weight: bold; /* Жирный текст */
+    cursor: pointer; /* Курсор в виде руки */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Плавные анимации */
+  }
+
+.app__button:hover {
+    background-color: #2b8130; /* Темнее зеленый при наведении */
+    transform: scale(1.1); /* Увеличение кнопки при наведении */
+  }
+
+.app__button:active {
+    background-color: #388e3c; /* Еще темнее при нажатии */
+    transform: scale(0.95); /* Немного уменьшить кнопку при клике */
+  }
